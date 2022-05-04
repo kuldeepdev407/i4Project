@@ -1,0 +1,14 @@
+.suitGradient {
+    background: linear-gradient(-0.46deg, #FF6666 -97.66%, rgba(255, 50, 50, 0) 90.81%)
+}
+
+.companyImage {
+    min-width: max-content;
+    margin-left: 30px;
+
+}
+
+.listItem li {
+    align-items: center;
+    display: flex;
+}
