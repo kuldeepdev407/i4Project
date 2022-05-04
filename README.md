@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# I4 Project
+This is a project where i clone a website using React Tailwind and jquery and many more.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+Live link : [https://kuldeep800singh.github.io/i4Project/index.html](https://kuldeep800singh.github.io/i4Project/index.html)
+
+
+
+
 
 ## Available Scripts
 
