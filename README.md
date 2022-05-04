@@ -5,6 +5,19 @@ This is a project where i clone a website using React Tailwind and jquery and ma
 ## Live link : [https://kuldeep800singh.github.io/i4Project/index.html](https://kuldeep800singh.github.io/i4Project/index.html)
 
 
+## Getting Start
+
+To run the app first install nodejs in you pc
+
+1. Then run ```npm install``` in terminal
+2. To run on local host ```npm start```
+
+Now you able to run the app on local machine or you can check it out on live link
+
+<br>
+<br>
+<br><br>
+
 
 
 
