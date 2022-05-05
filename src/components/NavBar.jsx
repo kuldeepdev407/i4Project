@@ -84,7 +84,7 @@ export default function NavBar() {
                     <NavLink value="Contact" />
                 </ul>
                 <Button1 value={'Request A Quote'} className="mt-10" />
-                <div></div>
+                <div className='mt-10 flex justify-center'><a className='max-w-[50px]' onClick={() => toggelMenue()}><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn3.iconfinder.com%2Fdata%2Ficons%2Fflat-actions-icons-9%2F792%2FClose_Icon_Dark-512.png&f=1&nofb=1" alt="" /></a></div>
             </div>
         </>
     )
