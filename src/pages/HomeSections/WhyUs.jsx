@@ -20,7 +20,7 @@ export default function WhyUs() {
                     </ul>
                     <Button2 value="Learn More About us" />
                 </div>
-                <div data-aos='fade-left' className='flex-1 aos-item' >
+                <div data-aos='fade-left' className='flex flex-1 justify-center aos-item' >
                     <img src="https://www.adourmedia.com.au/wp-content/uploads/2022/03/Property-1Default.svg" alt="ima" />
                 </div>
             </div>

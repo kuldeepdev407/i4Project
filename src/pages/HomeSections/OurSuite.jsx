@@ -3,13 +3,13 @@ import { Heading2 } from '../../components/Headings'
 import './OurSuite.css';
 export default function OurSuite() {
     return (
-        <div className='fullwidth mt-20 suitGradient'>
+        <div className='mt-20 suitGradient'>
             <div className=' flex flex-col max-w-6xl ml-auto mr-auto text-center justify-center'>
                 <Heading2 text="Our Suite of Tools" className='text-[40px] mb-5' />
 
             </div>
             <marquee direction="2" loop="100" scrollamount="20">
-                <ul id="listofcompany" className='listItem flex flex-row pb-10 overflow-hidden'>
+                <ul id="listofcompany" className='listItem flex flex-row gap-2 pb-10 overflow-hidden'>
                     <li ><img className="companyImage" src="https://www.adourmedia.com.au/wp-content/uploads/2022/03/Ubersuggests.svg" alt="" /></li>
                     <li ><img className="companyImage" src="https://www.adourmedia.com.au/wp-content/uploads/2022/03/Spyfu.svg" alt="" /></li>
                     <li ><img className="companyImage" src="https://www.adourmedia.com.au/wp-content/uploads/2022/03/sEMRUSH.svg" alt="" /></li>
