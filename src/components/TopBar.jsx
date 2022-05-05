@@ -5,7 +5,7 @@ import facebook from '../assets/images/facebook.svg';
 import instagram from '../assets/images/instagram (1).svg';
 export default function TopBar() {
     return (
-        <div className='flex justify-end m-auto mt-4'>
+        <div className='hidden md:flex justify-end m-auto mt-4'>
             <div className='ml-auto mr-12 mt-0 mb-0'>
                 <ul className='flex flex-row'>
                     <li className='text-white whitespace-nowrap font-light text-xs flex flex-row p-2'

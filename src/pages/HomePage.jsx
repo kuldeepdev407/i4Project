@@ -16,14 +16,14 @@ export default function HomePage() {
                     data-aos="fade-right"
                     data-aos-offset="10"
                     className='max-w-6xl flex flex-col aos-item lg:flex-row pl-10 pr-10'>
-                    <div className='flex-1'>
+                    <div className='ml-2 lg:flex-1'>
                         <Heading1
-                            className='mb-6 font-medium'
+                            className='mb-6 font-medium whitespace-wrap'
                             text={"Accelerate Your Business Growth With Leading Industry Experts "} />
                         <p className='mb-4 leading-[30px]'>Adour Media is a renowned IT services provider that delivers cutting-edge digital solutions across the world. With our primacy for innovation, we are proficient at originating high-quality, trendy, and robust software and data-centric digital marketing strategies for rapid business evolution. Start your online journey with us to build your empire in a unique, bold, futuristic manner. </p>
-                        <div className='flex flex-row'>
+                        <div className='flex flex-col gap-2 md:flex-row'>
                             <Button1 value={"Register Web 3.0 Services"} />
-                            <Button2 className='ml-6' value={"Contact Sales"} />
+                            <Button2 className='md:ml-6' value={"Contact Sales"} />
                         </div>
                     </div>
                     <div

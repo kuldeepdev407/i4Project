@@ -69,13 +69,13 @@ export default function NavBar() {
                     <div></div>
                 </div>
 
-                <div className='ml-auto flex lg:hidden'>
+                <div className='ml-auto pl-10  flex lg:hidden'>
                     <a href='#/' onClick={() => toggelMenue()} className='flex flex-row gap-2 items-center hover:text-[#D9664C] transition-all ease-in-out'>
                         <div className='invert '><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><rect y="9" width="20" height="2"></rect><rect y="3" width="20" height="2"></rect><rect y="15" width="20" height="2"></rect></svg></div>
                         Menu</a>
                 </div>
             </div>
-            <div id="navbar1" className='top-0 bg-[#25282D]  p-10 fixed z-[100] min-h-[100vh] lg:hidden'>
+            <div id="navbar1" className='hidden top-0 bg-[#25282D]  p-10 fixed z-[100] min-h-[100vh] lg:hidden'>
                 <ul className='flex flex-col gap-1 text-lg flex-4 mb-10 justify-center'>
                     <NavLink value="Home" />
                     <NavLink value="Services" />
